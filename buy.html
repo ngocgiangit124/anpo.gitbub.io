@@ -139,7 +139,7 @@
         <img src="img/bands/banner-product.png" alt="">
     </div>
     <div class="page-title">
-        <h2 class="text-uppercase text-center">Giỏ Hàng</h2>
+        <h2 class="text-uppercase text-center">Đặt hàng</h2>
     </div>
     <!--background-image: url(img/bands/bandner-about.jpg);-->
 </section>
@@ -148,9 +148,11 @@
         <div class="row">
             <div class="col-md-12" style="margin-bottom: 45px;padding-top: 10px">
                 <div class="menu-about">
-                    <ul class="breadcrumb">
-                        <li><a href="">  <i class="fa fa-home" style="color: #E2851B;" ></i></a></li>
-                        <li><a href="">Giỏ hàng</a></li>
+                    <ul class=" buy-item">
+                        <li class="active"><a href="">Đăng nhập</a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i>Địa chỉ giao hàng</a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i>thanh toán </a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i>hoàn tất </a></li>
                     </ul>
                 </div>
             </div>
@@ -160,176 +162,42 @@
 <section class="cart-main">
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <div class="product-cart">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="photo-product">
-                                        <img src="img/product/product-detail.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="name-product">
-                                        <label>1/2 bộ tuýp 24 chi tiết hệ inch Stanley</label>
-                                        <p><span>Mã sản phẩm:</span> 4526SR03</p>
-                                    </div>
-                                </div>
+            <div class="col-md-7">
+                <div class="form-login-buy">
+                    <b>Đăng nhập hoặc đặt hàng không cần đăng ký</b>
+                    <div class="login-buy">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email hoặc số điện thoại">
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="price-product price-cart">
-                                <p>Giá sản phẩm: <span class="sale"> 245,000 VNĐ</span><span class="sale-100">-15%</span></p>
-                                <b>211,000 VNĐ</b>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-add-cart text-uppercase">Tiếp tục</button>
                             </div>
-                            <div class="add-item-quantity form-group">
-                                <a class="btn-add"><i class="fa fa-minus"></i></a>
-                                <input type="text" class="" value="1">
-                                <a class="btn-add"><i class="fa fa-plus"></i></a>
+                            <div class="form-group">
+                                <input type="radio" checked value="1" name="ok" placeholder="1"><label >Đặt hàng ko qua đăng nhập</label><br>
+                                <input type="radio" value="0" name="ok" placeholder="1"><label >Tôi đã có tài khoản</label>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Mật khẩu">
+                                <a href="" class="forget" style="margin-left: auto">Quên mật khẩu</a>
+                            </div>
+                            <div class="form-group">
+                                <p class="text-center">Hoặc</p>
+                                <a href="#" class="facebook"><i class="fa fa-facebook"></i>face book</a>
+                                <a href="#" class="google-plus"><i class="fa fa-google-plus "></i>face book</a>
+                            </div>
+                        </form>
+
                     </div>
-                    <div class="remove-iteam-cart">
-                        <a href=""><i class="fa fa-times  "></i></a>
-                    </div>
-                </div>
-                <div class="product-cart">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="photo-product">
-                                        <img src="img/product/product-detail.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="name-product">
-                                        <label>1/2 bộ tuýp 24 chi tiết hệ inch Stanley</label>
-                                        <p><span>Mã sản phẩm:</span> 4526SR03</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="price-product price-cart">
-                                <p>Giá sản phẩm: <span class="sale"> 245,000 VNĐ</span><span class="sale-100">-15%</span></p>
-                                <b>211,000 VNĐ</b>
-                            </div>
-                            <div class="add-item-quantity form-group">
-                                <a class="btn-add"><i class="fa fa-minus"></i></a>
-                                <input type="text" class="" value="1">
-                                <a class="btn-add"><i class="fa fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="remove-iteam-cart">
-                        <a href=""><i class="fa fa-times  "></i></a>
-                    </div>
-                </div>
-                <div class="comeback-buy">
-                    <a href="#" class="btn-comeback-buy"><i class="fa fa-arrow-left"></i>Tiếp tục mua hàng</a>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="title-info-donhang">
-                    <p class="text-uppercase">Thông tin đơn hàng</p>
-                </div>
-                <div class="info-donhang">
-                    <p>Tạm tính: <span>422,000 VNĐ</span></p>
-                </div>
-                <div class="info-donhang">
-                    <p>Phí vận chuyển: <span>20,000 VNĐ</span></p>
-                </div>
-                <div class="info-donhang">
-                   <p class="text-center">Mã giảm giá</p>
-                    <input type="text" class="form-control pull-left">
-                    <button class="btn btn-danger">Đồng ý</button>
-                </div>
-                <div class="price-product pay">
-                    <p>Thành tiền (đã bao gồm VAT)</p>
-                    <b>211,000 VNĐ</b>
-                    <a href="buy.html" class="btn btn-danger"><i class="fa fa-shopping-cart"></i>Tiến hành mua hàng</a>
-                </div>
-                </div>
-            </div>
+            <div class="col-md-5"></div>
         </div>
     </div>
 </section>
-<section class="main-email">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="status-mail">
-                    <p style="margin: 0">Cập nhât thông tin khuyến mãi nhanh nhất
-                        và hưởng những ưu đãi nhất ừ chúng tôi</p>
-                </div>
-            </div>
-            <div class="col-md-8" style="padding-left:0 ">
-                <div class="form-mail">
-                    <form action="">
-                        <div class="input-group input-email">
-                            <input type="text" name="" class="form-control input-of-email" placeholder="Tìm sản phẩm">
-                            <span class="">
-                                <button type="submit" class="btn btn-email" alt="">
-                                          Đăng ký
-                                </button>
-                            </span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <footer id="footer">
-    <div class="main-footer">
-        <div class="container ">
-            <div class="row ">
-                <div class="col-sm-9 address">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="text-uppercase" style="font-size: 18px;margin-bottom: 20px">Công ty TNHH Anpo Việt Nam</h4>
-                        </div>
-                        <div class="col-sm-6 ">
-                            <h5>Trụ sở chính:</h5>
-                            <p><i class="fa fa-home" aria-hidden="true"></i>  Tầng 8, 434 Trần Khát Chân, Hai Bà Trưng, Hà Nội.</p>
-                            <p><i class="fa fa-phone" aria-hidden="true"></i>   (84-4) 39 761 454/(84-4) 39 761 454</p>
-                            <p><i class="fa fa-print" aria-hidden="true"></i>  (84-4) 39 762 969</p>
-                            <p><i class="fa fa-envelope" aria-hidden="true"></i>  contact@anpovietnam.com</p>
-                            <p><i class="fa fa-globe" aria-hidden="true"></i>  www.toolsmarket.com.vn</p>
-                        </div>
-                        <div class="col-sm-6 ">
-                            <h5>Văn phòng:</h5>
-                            <p><i class="fa fa-home" aria-hidden="true"></i>  14/4 đường Thân Nhân Trung, Ph. 12, Q. Tân Bình, TP. HCM </p>
-                            <p><i class="fa fa-phone" aria-hidden="true"></i>  (84-4) 39 761 454/(84-4) 39 761 454</p>
-                            <p><i class="fa fa-phone" aria-hidden="true"></i>  (84-4) 39 761 454/(84-4) 39 761 454</p>
-                            <!-- <p><i class="fa fa-print" aria-hidden="true"></i>  (84-8) 38 428 856</p> -->
-                            <p><i class="fa fa-envelope" aria-hidden="true"></i>  contact@anpovietnam.com</p>
-                            <p><i class="fa fa-globe" aria-hidden="true"></i>  www.toolsmarket.com.vn</p>
-                            <!--<p><a href="skype:c.t.thuy-?chat" style=" color: rgba(255, 254, 254, 0.7);"><i style="font-size: 17px;" class="fa fa-skype" aria-hidden="true"></i> Liên hệ Skype: c.t.thuy</a></p>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 ">
-                    <h4 class="text-uppercase" style="font-size: 18px;margin-bottom: 20px">Chính sách &amp; điều khoản</h4>
-                    <ul>
-                        <li><a href="#">Chính sách bảo mật</a></li>
-
-                        <li><a href="#">Hợp tác với ANPO</a></li>
-
-                        <li><a href="#">Câu hỏi thường gặp</a></li>
-
-                        <li><a href="#">Chính sách đổi trả</a></li>
-
-                        <li><a href="#">Điều khoản và quy định</a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="copy">
         <span>COPYRIGNT 2016 ANPO VIETNAM</span>
     </div>
