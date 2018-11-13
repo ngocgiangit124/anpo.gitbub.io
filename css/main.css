@@ -1428,3 +1428,31 @@ margin-left: auto;
 .login-buy .form-group a i{
     margin-right: 10px;
 }
+.info-total{
+    background-color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+.info-name-item{
+    width: 60%;
+}
+.info-total th{
+    color: #000000;
+}
+.info-total p .quantity-item{
+    color: #000;
+}
+.info-total td p{
+    color: #f7941d;
+}
+.info-total tr td:last-child{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+.info-price{
+    width: 40%;
+    text-align: right;
+}
